@@ -55,7 +55,8 @@ export default function Settings() {
       setGithubUser(validation.username);
       setGithubToken('');
       setPassphrase('');
-      alert('Đã kết nối GitHub thành công!');
+      alert('Đã kết nối GitHub thành công! Đang tải lại trang để đồng bộ dữ liệu...');
+      window.location.reload();
     } catch (err) {
       alert('Lỗi: ' + err.message);
     } finally {

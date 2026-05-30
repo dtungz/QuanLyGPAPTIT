@@ -73,8 +73,8 @@ export async function syncData(token, onStatusChange) {
     const remoteData = await readGist(token, gistId);
     const remoteTime = remoteData?.lastModified;
 
-    if (remoteTime && localTime && new Date(remoteTime) > new Date(localTime)) {
-      // Remote is newer, pull
+    if (remoteData && (!localTime || (remoteTime && new Date(remoteTime) > new Date(localTime)))) {
+      // Remote is newer or this is a fresh device, pull
       applyRemoteData(remoteData);
     } else {
       // Local is newer or equal, push
