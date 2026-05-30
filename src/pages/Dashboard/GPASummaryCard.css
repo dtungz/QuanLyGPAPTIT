@@ -88,27 +88,45 @@
 
 @media (max-width: 640px) {
   .gpa-summary {
-    gap: var(--space-sm);
+    gap: var(--space-xs);
+    flex-wrap: nowrap;
   }
   
   .gpa-summary__number {
-    font-size: var(--font-size-3xl);
+    font-size: var(--font-size-2xl);
+  }
+  
+  .gpa-summary__scale {
+    font-size: var(--font-size-sm);
   }
   
   .gpa-summary__number--sm {
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-lg);
+  }
+  
+  .gpa-summary__score--secondary .gpa-summary__scale {
+    font-size: var(--font-size-xs);
   }
   
   .gpa-summary__classification {
-    font-size: var(--font-size-sm);
-    padding: 2px 10px;
+    font-size: var(--font-size-xs);
+    padding: 2px 8px;
+    white-space: nowrap;
   }
   
   .gpa-summary__trend {
-    font-size: 11px;
+    font-size: 10px;
+    text-align: right;
+    justify-content: flex-end;
+  }
+
+  .gpa-summary__credits {
+    font-size: 10px;
   }
 
   .gpa-summary__meta {
-    align-items: flex-start;
+    align-items: flex-end;
+    flex-shrink: 1;
+    min-width: 0;
   }
 }
