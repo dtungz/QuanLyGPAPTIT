@@ -9,64 +9,64 @@
       "scale": [
         {
           "letter": "A+",
-          "minScore": 9,
+          "minScore": 8.95,
           "maxScore": 10,
           "gpa4": 4,
           "classification": "Xuất sắc"
         },
         {
           "letter": "A",
-          "minScore": 8.5,
-          "maxScore": 8.9,
+          "minScore": 8.45,
+          "maxScore": 8.94,
           "gpa4": 3.7,
           "classification": "Giỏi"
         },
         {
           "letter": "B+",
-          "minScore": 8,
-          "maxScore": 8.4,
+          "minScore": 7.95,
+          "maxScore": 8.44,
           "gpa4": 3.5,
           "classification": "Khá"
         },
         {
           "letter": "B",
-          "minScore": 7,
-          "maxScore": 7.9,
+          "minScore": 6.95,
+          "maxScore": 7.94,
           "gpa4": 3,
           "classification": "Khá"
         },
         {
           "letter": "C+",
-          "minScore": 6.5,
-          "maxScore": 6.9,
+          "minScore": 6.45,
+          "maxScore": 6.94,
           "gpa4": 2.5,
           "classification": "Trung bình"
         },
         {
           "letter": "C",
-          "minScore": 5.5,
-          "maxScore": 6.4,
+          "minScore": 5.45,
+          "maxScore": 6.44,
           "gpa4": 2,
           "classification": "Trung bình"
         },
         {
           "letter": "D+",
-          "minScore": 5,
-          "maxScore": 5.4,
+          "minScore": 4.95,
+          "maxScore": 5.44,
           "gpa4": 1.5,
           "classification": "Trung bình yếu"
         },
         {
           "letter": "D",
-          "minScore": 4,
-          "maxScore": 4.9,
+          "minScore": 3.95,
+          "maxScore": 4.94,
           "gpa4": 1,
           "classification": "Trung bình yếu"
         },
         {
           "letter": "F",
           "minScore": 0,
-          "maxScore": 3.9,
+          "maxScore": 3.94,
           "gpa4": 0,
           "classification": "Kém"
         }
