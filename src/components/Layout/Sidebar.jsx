@@ -81,6 +81,22 @@ export default function Sidebar() {
         </div>
       </aside>
 
+      {/* Mobile Top Bar */}
+      <div className="mobile-topbar">
+        <div className="sidebar__logo-icon" style={{ width: 32, height: 32 }}>
+          <BookOpen size={18} />
+        </div>
+        <span className="mobile-topbar__title">GPA PTIT</span>
+        <div style={{ flex: 1 }}></div>
+        <button
+          className="sidebar__theme-btn mobile-theme-btn"
+          onClick={toggleDarkMode}
+          title={settings.darkMode ? 'Chế độ sáng' : 'Chế độ tối'}
+        >
+          {settings.darkMode ? <Sun size={18} /> : <Moon size={18} />}
+        </button>
+      </div>
+
       {/* Mobile Bottom Nav */}
       <nav className="bottom-nav">
         {navItems.map(({ path, icon: Icon, label }) => (

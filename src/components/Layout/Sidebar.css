@@ -162,42 +162,88 @@
   justify-content: center;
 }
 
+/* ---- Mobile Top Bar ---- */
+.mobile-topbar {
+  display: none;
+}
+
 /* ---- Mobile Bottom Nav ---- */
 .bottom-nav {
   display: none;
   position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  bottom: max(16px, env(safe-area-inset-bottom));
+  left: 16px;
+  right: 16px;
   background: var(--bg-glass-strong);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border-top: 1px solid var(--border-glass);
+  border: 1px solid var(--border-glass);
+  box-shadow: var(--shadow-lg);
+  border-radius: 24px;
   z-index: var(--z-sticky);
-  padding: var(--space-xs) var(--space-sm);
-  padding-bottom: max(var(--space-xs), env(safe-area-inset-bottom));
+  padding: 8px 12px;
 }
 
 .bottom-nav__link {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2px;
-  padding: var(--space-xs) var(--space-sm);
+  gap: 4px;
+  padding: 8px 16px;
   color: var(--text-tertiary);
   text-decoration: none;
-  font-size: 10px;
+  font-size: 11px;
   font-weight: var(--font-weight-medium);
-  border-radius: var(--radius-sm);
+  border-radius: 16px;
   transition: all var(--transition-fast);
 }
 
 .bottom-nav__link--active {
   color: var(--color-primary-light);
+  background: hsla(250, 80%, 60%, 0.15);
 }
 
 @media (max-width: 768px) {
   .sidebar { display: none; }
+  
+  .mobile-topbar {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    padding: 0 var(--space-md);
+    padding-top: env(safe-area-inset-top);
+    background: var(--bg-glass-strong);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border-glass);
+    z-index: var(--z-sticky);
+    gap: var(--space-sm);
+  }
+  
+  .mobile-topbar__title {
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-md);
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .mobile-theme-btn {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    border-radius: var(--radius-full);
+    background: var(--bg-surface);
+    border: 1px solid var(--border-glass);
+  }
+
   .bottom-nav {
     display: flex;
     justify-content: space-around;

@@ -391,7 +391,14 @@ h1, h2, h3, h4, h5, h6 {
   .app-main {
     margin-left: 0;
     padding: var(--space-md);
-    padding-bottom: 80px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+  
+  .page-header .flex.justify-between {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-md);
   }
 }
 
