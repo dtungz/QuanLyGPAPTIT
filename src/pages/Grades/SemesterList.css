@@ -1,0 +1,59 @@
+.semester-tabs {
+  display: flex;
+  gap: var(--space-sm);
+  overflow-x: auto;
+  padding-bottom: var(--space-sm);
+  margin-bottom: var(--space-xl);
+  scrollbar-width: none;
+}
+.semester-tabs::-webkit-scrollbar { display: none; }
+
+.semester-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  padding: var(--space-md) var(--space-lg);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  min-width: 160px;
+  transition: all var(--transition-fast);
+  font-family: var(--font-family);
+  text-align: left;
+}
+
+.semester-tab:hover {
+  background: var(--bg-surface-hover);
+  border-color: var(--border-default);
+}
+
+.semester-tab--active {
+  background: hsla(250, 80%, 60%, 0.1);
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 1px var(--color-primary);
+}
+
+.semester-tab__name {
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-sm);
+  color: var(--text-primary);
+}
+
+.semester-tab__year {
+  font-size: var(--font-size-xs);
+  color: var(--text-muted);
+}
+
+.semester-tab__gpa {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-top: 4px;
+}
+
+.semester-tab__gpa-value {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+}

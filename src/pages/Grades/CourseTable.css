@@ -1,0 +1,86 @@
+.course-table-wrapper {
+  overflow-x: auto;
+}
+
+.course-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--font-size-sm);
+}
+
+.course-table th {
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: var(--font-weight-semibold);
+  color: var(--text-tertiary);
+  font-size: var(--font-size-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--border-default);
+  white-space: nowrap;
+  background: var(--bg-surface);
+  position: sticky;
+  top: 0;
+}
+
+.course-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  vertical-align: middle;
+}
+
+.course-table tbody tr {
+  transition: background var(--transition-fast);
+}
+.course-table tbody tr:hover {
+  background: var(--bg-surface-hover);
+}
+
+.course-code {
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-primary-light);
+  white-space: nowrap;
+}
+
+.course-name {
+  font-weight: var(--font-weight-medium);
+  max-width: 250px;
+}
+
+.text-center { text-align: center; }
+
+.score-col {
+  font-weight: var(--font-weight-semibold);
+}
+
+.gpa-col {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-base);
+}
+
+.course-actions {
+  display: flex;
+  gap: 4px;
+  justify-content: flex-end;
+}
+
+.action-btn {
+  background: none;
+  border: none;
+  color: var(--text-tertiary);
+  cursor: pointer;
+  padding: 6px;
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-fast);
+  display: flex;
+  align-items: center;
+}
+.action-btn:hover {
+  background: var(--bg-surface-active);
+  color: var(--text-primary);
+}
+.action-btn--danger:hover {
+  color: var(--color-danger);
+  background: var(--color-danger-bg);
+}

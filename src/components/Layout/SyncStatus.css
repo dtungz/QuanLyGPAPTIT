@@ -1,0 +1,77 @@
+.sync-status {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-xs);
+  margin-bottom: var(--space-md);
+  transition: all var(--transition-fast);
+  max-width: fit-content;
+}
+
+.sync-status__left {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sync-status__label {
+  font-weight: var(--font-weight-medium);
+}
+
+.sync-status__time {
+  color: var(--text-muted);
+  font-size: 10px;
+}
+
+.sync-status__retry {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+  padding: 2px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  transition: all var(--transition-fast);
+}
+.sync-status__retry:hover {
+  background: hsla(0,0%,100%,0.1);
+}
+
+.sync-status__error-msg {
+  color: var(--color-danger);
+  font-weight: var(--font-weight-bold);
+}
+
+/* Status variants */
+.sync--synced {
+  background: var(--color-success-bg);
+  color: var(--color-success-light);
+}
+
+.sync--syncing {
+  background: var(--color-info-bg);
+  color: var(--color-info);
+}
+
+.sync--pending {
+  background: var(--color-warning-bg);
+  color: var(--color-warning);
+}
+
+.sync--offline {
+  background: var(--bg-surface-hover);
+  color: var(--text-muted);
+}
+
+.sync--error {
+  background: var(--color-danger-bg);
+  color: var(--color-danger);
+}
+
+.sync--disconnected {
+  background: var(--bg-surface);
+  color: var(--text-muted);
+}

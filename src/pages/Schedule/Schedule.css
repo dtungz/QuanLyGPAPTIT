@@ -1,0 +1,46 @@
+.schedule-tabs {
+  display: flex;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-lg);
+  background: var(--bg-surface);
+  border-radius: var(--radius-lg);
+  padding: 4px;
+  width: fit-content;
+}
+
+.schedule-tab {
+  padding: 8px 20px;
+  border: none;
+  border-radius: var(--radius-md);
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  font-family: var(--font-family);
+}
+
+.schedule-tab:hover {
+  color: var(--text-primary);
+}
+
+.schedule-tab--active {
+  background: var(--color-primary);
+  color: white;
+  box-shadow: var(--shadow-sm);
+}
+
+.week-nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-lg);
+}
+
+.week-nav__label {
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-base);
+  min-width: 200px;
+  text-align: center;
+}

@@ -1,0 +1,178 @@
+.settings-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-lg);
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .settings-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* GitHub */
+.github-connected {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.github-connected p {
+  font-size: var(--font-size-sm);
+}
+
+.github-setup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.github-hint {
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+  line-height: var(--line-height-relaxed);
+}
+
+.github-hint a {
+  color: var(--color-primary-light);
+  text-decoration: underline;
+}
+
+.github-hint code {
+  background: var(--bg-surface-hover);
+  padding: 1px 6px;
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-xs);
+}
+
+/* Grade Scale */
+.scale-options {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-lg);
+}
+
+.scale-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px var(--space-md);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  font-family: var(--font-family);
+}
+
+.scale-option:hover {
+  background: var(--bg-surface-hover);
+}
+
+.scale-option--active {
+  border-color: var(--color-primary);
+  background: hsla(250, 80%, 60%, 0.08);
+}
+
+.scale-option__name {
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-sm);
+}
+
+.scale-option__type {
+  font-size: var(--font-size-xs);
+  color: var(--text-muted);
+}
+
+.scale-preview {
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.scale-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--font-size-sm);
+}
+
+.scale-table th {
+  padding: 8px 12px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--border-default);
+}
+
+.scale-table td {
+  padding: 6px 12px;
+  border-bottom: 1px solid var(--border-subtle);
+  font-size: var(--font-size-sm);
+}
+
+/* General settings */
+.settings-items {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.settings-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-sm) 0;
+}
+
+.settings-item__label {
+  display: block;
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-sm);
+}
+
+.settings-item__hint {
+  display: block;
+  font-size: var(--font-size-xs);
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+/* Semester Manager */
+.semester-manager {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.semester-manager__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-sm) var(--space-md);
+  background: var(--bg-surface);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-sm);
+}
+
+.semester-manager__add {
+  display: flex;
+  gap: var(--space-sm);
+  align-items: flex-end;
+  margin-top: var(--space-sm);
+}
+
+/* Backup */
+.backup-hint {
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+  margin-bottom: var(--space-md);
+}
+
+.backup-actions {
+  display: flex;
+  gap: var(--space-sm);
+}

@@ -1,0 +1,1005 @@
+{
+  "settings": {
+    "darkMode": true,
+    "totalCreditsRequired": 150,
+    "gradeScale": {
+      "id": "ptit",
+      "name": "PTIT (A+, A, B+, B, C+, C, D+, D, F)",
+      "type": "preset",
+      "scale": [
+        {
+          "letter": "A+",
+          "minScore": 9,
+          "maxScore": 10,
+          "gpa4": 4,
+          "classification": "Xuất sắc"
+        },
+        {
+          "letter": "A",
+          "minScore": 8.5,
+          "maxScore": 8.9,
+          "gpa4": 3.7,
+          "classification": "Giỏi"
+        },
+        {
+          "letter": "B+",
+          "minScore": 8,
+          "maxScore": 8.4,
+          "gpa4": 3.5,
+          "classification": "Khá"
+        },
+        {
+          "letter": "B",
+          "minScore": 7,
+          "maxScore": 7.9,
+          "gpa4": 3,
+          "classification": "Khá"
+        },
+        {
+          "letter": "C+",
+          "minScore": 6.5,
+          "maxScore": 6.9,
+          "gpa4": 2.5,
+          "classification": "Trung bình"
+        },
+        {
+          "letter": "C",
+          "minScore": 5.5,
+          "maxScore": 6.4,
+          "gpa4": 2,
+          "classification": "Trung bình"
+        },
+        {
+          "letter": "D+",
+          "minScore": 5,
+          "maxScore": 5.4,
+          "gpa4": 1.5,
+          "classification": "Trung bình yếu"
+        },
+        {
+          "letter": "D",
+          "minScore": 4,
+          "maxScore": 4.9,
+          "gpa4": 1,
+          "classification": "Trung bình yếu"
+        },
+        {
+          "letter": "F",
+          "minScore": 0,
+          "maxScore": 3.9,
+          "gpa4": 0,
+          "classification": "Kém"
+        }
+      ]
+    }
+  },
+  "semesters": [
+    {
+      "id": "sem_1779459683848_1",
+      "name": "Học kỳ 2",
+      "year": "2025 - 2026",
+      "targetGPA": 3,
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "id": "sem_1779459683848_2",
+      "name": "Học kỳ 1",
+      "year": "2025 - 2026",
+      "targetGPA": 3,
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "id": "sem_1779459683848_3",
+      "name": "Học kỳ 2",
+      "year": "2024 - 2025",
+      "targetGPA": 3,
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "id": "sem_1779459683848_4",
+      "name": "Học kỳ 1",
+      "year": "2024 - 2025",
+      "targetGPA": 3,
+      "startDate": "",
+      "endDate": ""
+    }
+  ],
+  "courses": [
+    {
+      "id": "course_1779459683848_nbcowc3y7",
+      "semesterId": "sem_1779459683848_1",
+      "code": "BAS1122",
+      "name": "Tư tưởng Hồ Chí Minh",
+      "credits": 2,
+      "status": "in-progress",
+      "grades": {
+        "attendance": null,
+        "midterm": null,
+        "final": null,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_xbr8qat7e",
+      "semesterId": "sem_1779459683848_1",
+      "code": "BSA1221",
+      "name": "Pháp luật đại cương",
+      "credits": 2,
+      "status": "in-progress",
+      "grades": {
+        "attendance": null,
+        "midterm": null,
+        "final": null,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_pyf69bxtu",
+      "semesterId": "sem_1779459683848_1",
+      "code": "MUL1307",
+      "name": "Xử lý và truyền thông đa phương tiện",
+      "credits": 2,
+      "status": "in-progress",
+      "grades": {
+        "attendance": null,
+        "midterm": null,
+        "final": null,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_npewggb40",
+      "semesterId": "sem_1779459683848_1",
+      "code": "MUL13124",
+      "name": "Dựng audio và video phi tuyến",
+      "credits": 3,
+      "status": "in-progress",
+      "grades": {
+        "attendance": null,
+        "midterm": null,
+        "final": null,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_v4ljrrhkn",
+      "semesterId": "sem_1779459683848_1",
+      "code": "MUL13151",
+      "name": "Thiết kế tương tác đa phương tiện",
+      "credits": 3,
+      "status": "in-progress",
+      "grades": {
+        "attendance": null,
+        "midterm": null,
+        "final": null,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_zyk1zysgv",
+      "semesterId": "sem_1779459683848_1",
+      "code": "MUL1422",
+      "name": "Tổ chức sản xuất sản phẩm đa phương tiện",
+      "credits": 2,
+      "status": "in-progress",
+      "grades": {
+        "attendance": null,
+        "midterm": null,
+        "final": null,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_prhq9bvmo",
+      "semesterId": "sem_1779459683848_1",
+      "code": "MUL1454",
+      "name": "Thiết kế đồ họa 3D",
+      "credits": 3,
+      "status": "in-progress",
+      "grades": {
+        "attendance": null,
+        "midterm": null,
+        "final": null,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_4mkpywwky",
+      "semesterId": "sem_1779459683848_1",
+      "code": "SKD1102",
+      "name": "Kỹ năng làm việc nhóm",
+      "credits": 1,
+      "status": "in-progress",
+      "grades": {
+        "attendance": null,
+        "midterm": null,
+        "final": null,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_xnou2046c",
+      "semesterId": "sem_1779459683848_2",
+      "code": "BAS1152",
+      "name": "Chủ nghĩa xã hội khoa học",
+      "credits": 2,
+      "status": "completed",
+      "grades": {
+        "attendance": 8,
+        "midterm": 8,
+        "final": 7,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_fksafxs6t",
+      "semesterId": "sem_1779459683848_2",
+      "code": "BAS1226",
+      "name": "Xác suất thống kê",
+      "credits": 2,
+      "status": "completed",
+      "grades": {
+        "attendance": 8.7,
+        "midterm": 8.7,
+        "final": 8,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_x1u43mzx3",
+      "semesterId": "sem_1779459683848_2",
+      "code": "INT1339",
+      "name": "Ngôn ngữ lập trình C++",
+      "credits": 3,
+      "status": "completed",
+      "grades": {
+        "attendance": 10,
+        "midterm": 10,
+        "final": 10,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_pd96ki9zy",
+      "semesterId": "sem_1779459683848_2",
+      "code": "INT1358",
+      "name": "Toán rời rạc 1",
+      "credits": 3,
+      "status": "completed",
+      "grades": {
+        "attendance": 8.8,
+        "midterm": 8.8,
+        "final": 9.5,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_ic1grtpku",
+      "semesterId": "sem_1779459683848_2",
+      "code": "MUL1314",
+      "name": "Kỹ thuật quay phim",
+      "credits": 3,
+      "status": "completed",
+      "grades": {
+        "attendance": 8.1,
+        "midterm": 8.1,
+        "final": 7.8,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_286ygruwn",
+      "semesterId": "sem_1779459683848_2",
+      "code": "MUL14134",
+      "name": "Thiết kế hình động 1",
+      "credits": 3,
+      "status": "completed",
+      "grades": {
+        "attendance": 8.7,
+        "midterm": 8.7,
+        "final": 8.7,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_hrkqvl287",
+      "semesterId": "sem_1779459683848_2",
+      "code": "SKD1101",
+      "name": "Kỹ năng thuyết trình",
+      "credits": 1,
+      "status": "completed",
+      "grades": {
+        "attendance": 9,
+        "midterm": 9,
+        "final": 8,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_zfpv28dzu",
+      "semesterId": "sem_1779459683848_3",
+      "code": "BAS1107",
+      "name": "Giáo dục thể chất 2",
+      "credits": 2,
+      "status": "completed",
+      "grades": {
+        "attendance": 10,
+        "midterm": 10,
+        "final": 9,
+        "other": []
+      },
+      "weights": {
+        "attendance": 20,
+        "midterm": 30,
+        "final": 50,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_l63iletfa",
+      "semesterId": "sem_1779459683848_3",
+      "code": "BAS1151",
+      "name": "Kinh tế chính trị Mác- Lênin",
+      "credits": 2,
+      "status": "completed",
+      "grades": {
+        "attendance": 10,
+        "midterm": 10,
+        "final": 7.3,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_yi7lhs62q",
+      "semesterId": "sem_1779459683848_3",
+      "code": "BAS1157",
+      "name": "Tiếng Anh (Course 1)",
+      "credits": 4,
+      "status": "completed",
+      "grades": {
+        "attendance": 9.8,
+        "midterm": 9.8,
+        "final": 7.1,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_p00pjqwhr",
+      "semesterId": "sem_1779459683848_3",
+      "code": "BAS1220",
+      "name": "Toán cao cấp 2",
+      "credits": 2,
+      "status": "completed",
+      "grades": {
+        "attendance": 9.4,
+        "midterm": 9.4,
+        "final": 9.7,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_zat6q9ygw",
+      "semesterId": "sem_1779459683848_3",
+      "code": "INT1155",
+      "name": "Tin học cơ sở 2",
+      "credits": 2,
+      "status": "completed",
+      "grades": {
+        "attendance": 9.3,
+        "midterm": 9.3,
+        "final": 10,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_2rn2x1vd6",
+      "semesterId": "sem_1779459683848_3",
+      "code": "MUL13122",
+      "name": "Kỹ thuật nhiếp ảnh",
+      "credits": 2,
+      "status": "completed",
+      "grades": {
+        "attendance": 6.5,
+        "midterm": 6.5,
+        "final": 7.8,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_m1kdvakul",
+      "semesterId": "sem_1779459683848_3",
+      "code": "MUL13149",
+      "name": "Mỹ thuật cơ bản",
+      "credits": 3,
+      "status": "completed",
+      "grades": {
+        "attendance": 7.8,
+        "midterm": 7.8,
+        "final": 9.5,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_n0gl0p8hd",
+      "semesterId": "sem_1779459683848_3",
+      "code": "MUL13150",
+      "name": "Thiết kế đồ họa",
+      "credits": 3,
+      "status": "completed",
+      "grades": {
+        "attendance": 8.2,
+        "midterm": 8.2,
+        "final": 8.2,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_zxzg7dobe",
+      "semesterId": "sem_1779459683848_4",
+      "code": "BAS1105M",
+      "name": "Giáo dục quốc phòng",
+      "credits": 7,
+      "status": "completed",
+      "grades": {
+        "attendance": 6,
+        "midterm": 6,
+        "final": 6,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_b1q4s5ac0",
+      "semesterId": "sem_1779459683848_4",
+      "code": "BAS1106",
+      "name": "Giáo dục thể chất 1",
+      "credits": 2,
+      "status": "completed",
+      "grades": {
+        "attendance": 9.2,
+        "midterm": 9.2,
+        "final": 5,
+        "other": []
+      },
+      "weights": {
+        "attendance": 20,
+        "midterm": 30,
+        "final": 50,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_gs7bqibc0",
+      "semesterId": "sem_1779459683848_4",
+      "code": "BAS1150",
+      "name": "Triết học Mác - Lênin",
+      "credits": 3,
+      "status": "completed",
+      "grades": {
+        "attendance": 9.7,
+        "midterm": 9.7,
+        "final": 7.7,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_x0uaq83j2",
+      "semesterId": "sem_1779459683848_4",
+      "code": "BAS1219",
+      "name": "Toán cao cấp 1",
+      "credits": 2,
+      "status": "completed",
+      "grades": {
+        "attendance": 9.3,
+        "midterm": 9.3,
+        "final": 9,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_jzyu7np3q",
+      "semesterId": "sem_1779459683848_4",
+      "code": "INT1154",
+      "name": "Tin học cơ sở 1",
+      "credits": 2,
+      "status": "completed",
+      "grades": {
+        "attendance": 8.7,
+        "midterm": 8.7,
+        "final": 9,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_tbezh10kf",
+      "semesterId": "sem_1779459683848_4",
+      "code": "MUL1238",
+      "name": "Cơ sở tạo hình",
+      "credits": 3,
+      "status": "completed",
+      "grades": {
+        "attendance": 9.5,
+        "midterm": 9.5,
+        "final": 8.5,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_8hjahj9mv",
+      "semesterId": "sem_1779459683848_4",
+      "code": "MUL1320",
+      "name": "Nhập môn đa phương tiện",
+      "credits": 2,
+      "status": "completed",
+      "grades": {
+        "attendance": 8.3,
+        "midterm": 8.3,
+        "final": 6,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_j4tzrjrlh",
+      "semesterId": "sem_1779459683848_4",
+      "code": "BAS1157",
+      "name": "Tiếng Anh (Course 1)",
+      "credits": 4,
+      "status": "completed",
+      "grades": {
+        "attendance": 10,
+        "midterm": 10,
+        "final": 10,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_nv623dyeu",
+      "semesterId": "sem_1779459683848_4",
+      "code": "BAS1158",
+      "name": "Tiếng Anh (Course 2)",
+      "credits": 4,
+      "status": "completed",
+      "grades": {
+        "attendance": 9,
+        "midterm": 9,
+        "final": 9,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    },
+    {
+      "id": "course_1779459683848_pi1wns0py",
+      "semesterId": "sem_1779459683848_4",
+      "code": "BAS1159",
+      "name": "Tiếng Anh (Course 3)",
+      "credits": 4,
+      "status": "completed",
+      "grades": {
+        "attendance": 9,
+        "midterm": 9,
+        "final": 9,
+        "other": []
+      },
+      "weights": {
+        "attendance": 10,
+        "midterm": 20,
+        "final": 70,
+        "other": 0
+      },
+      "schedule": {
+        "dayOfWeek": "",
+        "startTime": "",
+        "endTime": "",
+        "room": "",
+        "teacher": ""
+      }
+    }
+  ],
+  "attendance": [],
+  "scheduleNotes": []
+}
