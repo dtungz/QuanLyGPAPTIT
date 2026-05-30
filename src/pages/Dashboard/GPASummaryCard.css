@@ -85,3 +85,30 @@
   font-weight: var(--font-weight-medium);
   margin-bottom: var(--space-md);
 }
+
+@media (max-width: 640px) {
+  .gpa-summary {
+    gap: var(--space-sm);
+  }
+  
+  .gpa-summary__number {
+    font-size: var(--font-size-3xl);
+  }
+  
+  .gpa-summary__number--sm {
+    font-size: var(--font-size-xl);
+  }
+  
+  .gpa-summary__classification {
+    font-size: var(--font-size-sm);
+    padding: 2px 10px;
+  }
+  
+  .gpa-summary__trend {
+    font-size: 11px;
+  }
+
+  .gpa-summary__meta {
+    align-items: flex-start;
+  }
+}
